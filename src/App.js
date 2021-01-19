@@ -63,6 +63,7 @@ function App(props) {
     props.increasePoints({reset: true})
     props.increaseCurrentRound({reset: true})
     props.switchStart(true)
+    handleGetFirstQuestion()
   }
 
   const handleGetFirstQuestion = () => {
